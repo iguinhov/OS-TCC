@@ -1,0 +1,139 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.CookiePolicy" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap-theme.css" />
+    <None Include="wwwroot\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\css\bootstrap-theme.min.css" />
+    <None Include="wwwroot\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.css.map" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\custom.css" />
+    <None Include="wwwroot\css\custom.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-bs\css\dataTables.bootstrap.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-bs\css\dataTables.bootstrap.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-bs\License.txt" />
+    <None Include="wwwroot\css\DataTables\datatables.net-bs\Readme.md" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.bootstrap.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.bootstrap.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.bootstrap4.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.bootstrap4.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.dataTables.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.dataTables.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.foundation.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.foundation.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.jqueryui.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.jqueryui.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.semanticui.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\css\buttons.semanticui.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\License.txt" />
+    <None Include="wwwroot\css\DataTables\datatables.net-buttons-bs\Readme.md" />
+    <None Include="wwwroot\css\DataTables\datatables.net-fixedheader-bs\css\fixedHeader.bootstrap.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-fixedheader-bs\css\fixedHeader.bootstrap.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-fixedheader-bs\License.txt" />
+    <None Include="wwwroot\css\DataTables\datatables.net-fixedheader-bs\Readme.md" />
+    <None Include="wwwroot\css\DataTables\datatables.net-responsive-bs\css\responsive.bootstrap.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-responsive-bs\css\responsive.bootstrap.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-responsive-bs\css\responsive.dataTables.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-responsive-bs\css\responsive.dataTables.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-responsive-bs\License.txt" />
+    <None Include="wwwroot\css\DataTables\datatables.net-responsive-bs\Readme.md" />
+    <None Include="wwwroot\css\DataTables\datatables.net-scroller-bs\css\scroller.bootstrap.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-scroller-bs\css\scroller.bootstrap.min.css" />
+    <None Include="wwwroot\css\DataTables\datatables.net-scroller-bs\License.txt" />
+    <None Include="wwwroot\css\DataTables\datatables.net-scroller-bs\Readme.md" />
+    <None Include="wwwroot\css\font-awesome.css" />
+    <None Include="wwwroot\css\font-awesome.min.css" />
+    <None Include="wwwroot\css\form-elements.css" />
+    <None Include="wwwroot\css\jQuery-File-Upload-css\jquery.fileupload-noscript.css" />
+    <None Include="wwwroot\css\jQuery-File-Upload-css\jquery.fileupload-ui-noscript.css" />
+    <None Include="wwwroot\css\jQuery-File-Upload-css\jquery.fileupload-ui.css" />
+    <None Include="wwwroot\css\jQuery-File-Upload-css\jquery.fileupload.css" />
+    <None Include="wwwroot\css\jQuery-File-Upload-css\jquery.multifile.min.css" />
+    <None Include="wwwroot\css\jQuery-File-Upload-css\style.css" />
+    <None Include="wwwroot\css\Site.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\js\ai.0.22.9-build00167.js" />
+    <None Include="wwwroot\js\ai.0.22.9-build00167.min.js" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\canvasjs.min.js" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\custom.min.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.intellisense.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.min.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.min.map" />
+    <None Include="wwwroot\js\jquery-1.9.1.intellisense.js" />
+    <None Include="wwwroot\js\jquery-1.9.1.js" />
+    <None Include="wwwroot\js\jquery-1.9.1.min.js" />
+    <None Include="wwwroot\js\jquery-1.9.1.min.map" />
+    <None Include="wwwroot\js\jQuery-File-Upload\app.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-angular.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-audio.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-image.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-jquery-ui.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-process.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-ui.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-validate.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload-video.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.fileupload.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.iframe-transport.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.MultiFile.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.MultiFile.min.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\jquery.ui.widget.js" />
+    <None Include="wwwroot\js\jQuery-File-Upload\main.js" />
+    <None Include="wwwroot\js\jquery.canvasjs.min.js" />
+    <None Include="wwwroot\js\jquery.multifile.min.js" />
+    <None Include="wwwroot\js\jquery.signalR-2.2.0.js" />
+    <None Include="wwwroot\js\jquery.signalR-2.2.0.min.js" />
+    <None Include="wwwroot\js\jquery.validate-vsdoc.js" />
+    <None Include="wwwroot\js\jquery.validate.js" />
+    <None Include="wwwroot\js\jquery.validate.min.js" />
+    <None Include="wwwroot\js\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\js\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\js\modernizr-2.6.2.js" />
+    <None Include="wwwroot\js\pdfmake\pdfmake.min.js" />
+    <None Include="wwwroot\js\pdfmake\vfs_fonts.js" />
+    <None Include="wwwroot\js\scriptsMaster.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Shared\_LayoutLogin.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
